@@ -18,6 +18,7 @@ public class Program {
 		
 		while (true) {
 			try {
+				// Limpar tela
 				UI.clearScreen();
 				// Imprimindo as peças da partida
 				UI.printBoard(chessMatch.getPieces());
